@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href ="main.css">
+    </head>
+    <body>
+        <table width='20%' border="2.0">
+            <tr>
+                <th colspan="4">
+                    <input id='text-box' style="width:95%" onchange="changed(this)">
+                </th>
+            </tr>
+            <tr>
+                <th colspan="1"><button class='btn' onclick="ac(this)" value="ac">AC</button></th>
+                <th><button class='btn' onclick="bk(this)" value="bk">BK</button></th>
+                <th><button class='btn' onclick="buttonfnc(this)" value="%">%</button></th>
+                <th><button class='btn' onclick="buttonfnc(this)" value="/">/</button></th>
+            </tr>
+            <tr>
+                <th><button class='btn' onclick="buttonfnc(this)" value="7">7</button></th>
+                <th><button class='btn' onclick="buttonfnc(this)" value="8">8</button></th>
+                <th><button class='btn' onclick="buttonfnc(this)" value="9">9</button></th>
+                <th><button class='btn' onclick="buttonfnc(this)" value="*">*</button></th>
+            </tr>
+            <tr>
+                <th><button class='btn' onclick="buttonfnc(this)" value="4">4</button></th>
+                <th><button class='btn' onclick="buttonfnc(this)" value="5">5</button></th>
+                <th><button class='btn' onclick="buttonfnc(this)" value="6">6</button></th>
+                <th><button class='btn' onclick="buttonfnc(this)" value="-">-</button></th>
+            </tr>
+            <tr>
+                <th><button class='btn' onclick="buttonfnc(this)" value="1">1</button></th>
+                <th><button class='btn' onclick="buttonfnc(this)" value="2">2</button></th>
+                <th><button class='btn' onclick="buttonfnc(this)" value="3">3</button></th>
+                <th><button class='btn' onclick="buttonfnc(this)" value="+">+</button></th>
+            </tr>
+            <tr>
+                <th colspan="2"><button class='btn' onclick="buttonfnc(this)" value="0" >0</button></th>
+                <th><button class='btn' onclick="buttonfnc(this)" value=".">.</button></th>
+                <th><button class='btn' onclick="equal(this)" value="">=</button></th>
+            </tr>               
+        </table>
+        <script src="main.js"></script>
+    </body>
+</html>
