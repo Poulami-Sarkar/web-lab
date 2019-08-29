@@ -1,0 +1,104 @@
+h1{
+	font-size:40px;
+	text-align:center;
+	display:block;
+	background:burlywood;
+	text-decoration:underline,bold;
+}
+
+h2{
+	font-size:30px;
+	text-align:left;
+	display:block;
+	background:burlywood;
+	text-decoration:underline;
+}
+
+name:before{
+	text-decoration:bold;
+	margin-left:50px;
+	content:"NAME:";
+	color:red;
+}
+
+name{
+	
+	color:black;
+	display:block;
+	background:darkgrey;
+}
+usn:before{
+	text-decoration:bold;
+	 text-decoration:bold;
+	margin-left:50px;
+	content:"STUDENT USN:";
+	color:red;
+	
+}
+
+
+usn{
+	background:darkgrey;
+	color:black;
+	display:block;
+}
+
+branch:before{
+	text-decoration:bold;
+	 text-decoration:bold;
+	margin-left:50px;
+	content:"BRANCH:";
+	color:red;
+}
+
+branch{
+	background:darkgrey;
+	color:black;
+	display:block;
+}
+
+sem:before{
+	text-decoration:bold;
+	 text-decoration:bold;
+	margin-left:50px;
+	content:"COLLEGE:";
+	color:red;
+}
+
+sem{
+	background:darkgrey;
+	color:black;
+	display:block;
+}
+
+
+
+college:before{
+	text-decoration:bold;
+	 text-decoration:bold;
+	
+	margin-left:50px;
+	content:"COLLEGE:";
+	color:red;
+}
+
+college{
+	background:darkgrey;
+	color:black;
+	display:block;
+}
+
+year:before{
+	text-decoration:bold;
+	 text-decoration:bold;
+	margin-left:50px;	
+	content:"year:";
+	color:red;
+}
+
+year{
+	background:darkgrey;
+	color:black;
+	display:block;
+	margin-bottom:20px;
+}

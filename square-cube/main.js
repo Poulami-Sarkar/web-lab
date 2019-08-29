@@ -1,3 +1,15 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body onload="populate_table()">
+<table id='table' border="2">
+
+
+</table>
+<script>
+
 function populate_table(){
     var i;
     data ="<tr>\
@@ -10,3 +22,6 @@ function populate_table(){
     }
     document.getElementById("table").innerHTML =data;
 }
+</script>
+</body>
+</html>

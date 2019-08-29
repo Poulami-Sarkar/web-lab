@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding = "utf-8"?>
+<?xml-stylesheet type="text/css" href="student.css"?> 
+<studentData>
+	<h1>Student Database</h1>
+	<h2>Student 1</h2>
+	<name>Nimisha</name>
+	<usn>099</usn>
+	<sem>7</sem>
+	<branch>CSE</branch>
+	<college>PESIT,BSC</college>
+	<year>2016</year>
+	
+	<h2>Student 2</h2>
+	<name>Pranav</name>
+	<usn>114</usn>
+	<sem>7</sem>
+	<branch>CSE</branch>
+	<college>PESIT,BSC</college>
+	<year>2016</year>
+	
+	
+	<h2>Student 3</h2>
+	<name>Poulami</name>
+	<usn>110</usn>
+	<sem>7</sem>
+	<branch>CSE</branch>
+	<college>PESIT,BSC</college>
+	<year>2016</year>
+</studentData>

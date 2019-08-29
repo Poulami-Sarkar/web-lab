@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="main.css">
+        <title>Student Form</title>
+
+    </head>
+    <body>
+        <form>
+            <fieldset width="200px">
+                <legend>College Application</legend>
+                <label>Name:</label>
+                <input type = "text" placeholder="Poulami Sarkar" required><br>
+                <label>DOB:</label>
+                <input type= "date" required><br>
+                <label>E-Mail:</label>
+                <input type = "email" placeholder="nimishavarun@gmail.com" required><br>
+                <label>Gender:</label>
+                <input type="radio" name="gender" value="male"> Male
+                <input type="radio" name="gender" value="female"> Female
+                <input type="radio" name="gender" value="other" checked> Other<br>
+                <label>Phone:</label>
+                <input type = "number" placeholder="9448931267" required><br>
+                <label>Country:</label>
+                <input type="text" list="coun" placeholder="India" required><br>
+                <datalist id="coun">
+                    <option>India</option>
+                    <option>USA</option>
+                    <option>China</option>
+                    <option>Japan</option>
+                    <option>Bhutan</option>                
+                </datalist>
+                <label>Course:</label>
+                <select required>
+                    <option>UG</option>
+                    <option>MS</option>
+                    <option>MS+PhD</option>
+                    <option>PhD</option>
+                </select><br>
+
+                <label required>Tell us about yourself:</label><br>
+                <textarea cols="30" rows="4" maxlength="2000"></textarea><br>
+                
+                <label required>Transcript:</label>
+                <input type= "file"><br>
+                <label required>Resume:</label>
+                <input type= "file"><br>
+                <label>How did you find out about us?</label><br>
+                <input type= "checkbox"> Friends
+                <input type= "checkbox"> Social media 
+                <input type= "checkbox"> School/College <br>
+                <input type= "checkbox"> Advertisement
+                <input type= "checkbox"> Other<br>
+            </fieldset>
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>
